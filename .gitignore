@@ -1,0 +1,14 @@
+# Environment
+*.env
+.env
+
+# Python
+*.pyc
+__pycache__/
+
+# Pipenv
+Pipfile.lock
+
+# Django
+db.sqlite3
+staticfiles/
