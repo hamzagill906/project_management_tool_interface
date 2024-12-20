@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 django = "*"
+djangorestframework = "*"
+django-environ = "*"
+drf-yasg = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
