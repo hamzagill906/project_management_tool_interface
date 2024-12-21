@@ -9,6 +9,7 @@ djangorestframework = "*"
 django-environ = "*"
 drf-yasg = "*"
 djangorestframework-simplejwt = "*"
+celery = "*"
 
 [dev-packages]
 
