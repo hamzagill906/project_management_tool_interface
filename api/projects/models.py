@@ -32,7 +32,7 @@ class Task(models.Model):
     priority = models.CharField(max_length=10, choices=PRIORITY_CHOICES)
     due_date = models.DateField()
     status = models.CharField(max_length=15, choices=STATUS_CHOICES)
-    dependencies = models.ManyToManyField('self', symmetrical=False)
+    dependencies = models.ManyToManyField('self', symmetrical=False, blank = True, null =True, related_name = 'dependent_tasks')
 
     def __str__(self):
         return self.title

@@ -2,7 +2,6 @@
 
 from django.core.mail import send_mail
 from django.utils.timezone import now
-from api.projects.models import Task
 from django.conf import settings
 
 def send_task_notification(task):
